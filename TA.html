@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<title>Computer Science Department</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/TA.css" >
+    <script src="TA.js"></script>
+</head>
+    
+    <body background="./styles/aum3.jpg">
+        <div class="container">
+            <div class="heading_header">
+                <img src="images/logo.png">
+                <div class="heading">
+                    <header>
+                        <h2> Computer Science Department</h2>
+                    </header> 
+                    <nav>
+                        <a href="index.html" class="active"> Home</a>
+                        <a href="description.html" class="main_nav page_2">Program Description</a>
+                        <a href="TA.html" class="main_nav page_3">TA Application</a>
+                        <a href="GPA.html" class="main_nav">GPA Calculator</a>   
+                    </nav>
+                </div>
+            </div>
+            <div class="content">
+                
+                <form name="myform" action="survey_data.html" method="get">
+                    <h2 class="form-heading">Teaching Assistant Application Form</h2>
+                    <h3>Applicant Information</h3>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname"  required><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" required><br>
+                    <label for="sid">Student ID:</label>
+                    <input type="text" id="sid"  required><br>
+                    <div id="gender">
+                        <label for="gender" class="gen">Gender:</label>
+                        <label for="m">M</label>
+                        <input type="checkbox" name="gender" id="m"  value="Male">
+                        <label for="f">F</label>
+                        <input type="checkbox" name="gender" id="f" value="Female"><br>
+                    </div>
+                    <label for="GPA">GPA:</label>
+                    <input type="text" name="GPA" id="GPA" class="input">
+                    <br>
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" cols="24" rows="5" required></textarea>
+                    <h3><br>Thank you for submitting t he Application</h3>
+                    <input div class="buttons" type="submit" name="button" id="button" value="Submit">
+                    <input div class="buttons" type="reset" name="reset" id="reset"> <br>
+                </form>
+            </div>
+            <footer>
+                <div class="f_left">
+                    <small>
+                        7400 East Drive <br>
+                        Montgomery,AL 36117 <br>
+                        Local: 334-244-3000 <br>
+                        Toll-Free: 800-227-2649 <br>
+                    </small>
+                </div>
+                <div class="f_middle">
+                    <p class="copy">&copy; 2023 Chandu Sirikonda</p>
+                </div>
+                <div class="f_right">
+                    <img src="images/t3.png "alt="twitter" class="image">
+                    <img src="images/pinterest-logo.png" class="image">
+                    <img src="images/facebook-social-network-logo.png" class="image">
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
